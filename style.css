@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root {
+  --rosa: #EA41BB;
+  --degradeRosa: linear
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #EBEBEB;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container {
+  width: 550px;
+  height: 600px;
+  background-image: linear-gradient(100deg, #FF66DD 1%, #F89FE4 30%, #fcd2f3 100%);
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  position: absolute;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.116);
+}
+
+.header {
+  margin-top: 40px;
+  text-align: center;
+  color: #ffff;
+}
+
+.header h1 {
+  margin-bottom: 10px;
+}
+
+.principal {
+  background-color: #ffff;
+  width: 550px;
+  height: 445px;
+  border-radius: 80px 80px 15px 15px;
+  bottom: 0;
+  position: absolute;
+  
+}
+
+.formulario {
+  position: relative;
+  top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.login, .senha, .entrar{
+  font-weight: 600;
+}
+
+label {
+  display: block;
+}
+
+input {
+  font-size: 1rem;
+  padding: 10px;
+  border: none;
+  background-color: #ebebeb;
+  border-radius: 10px;
+  margin: 5px 0px 40px 5px;
+  font-family: 'Inter', sans-serif;
+}
+
+.entrar {
+  color: #ffff;
+  text-transform: uppercase;
+  padding: 10px 100px;
+  margin-top: 30px;
+  background-color: var(--rosa);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.esqueci-formulario {
+  color: var(--rosa);
+  font-size: 0.75rem;
+  position: absolute;
+  top: 175px;
+  left: 300px;
+  text-decoration: none;
+}
+
+.registrar {
+  text-align: center;
+  position: relative;
+  top: 115px;
+}
+
+.registrar a {
+  color: var(--rosa);
+  text-decoration: none;
+}
