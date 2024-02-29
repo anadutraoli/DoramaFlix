@@ -110,7 +110,12 @@ input {
 }
 
 @media (max-width: 500px) {
+  body {
+    height: 100%;
+  }
+
   .container {
+    border-radius: 0px;
     height: 100%;
     width: 100%;
   }
