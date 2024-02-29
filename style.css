@@ -42,6 +42,7 @@ body {
 
 .header img {
   margin-bottom: 10px;
+  max-width: 100%;
 }
 
 .formulario {
@@ -100,10 +101,17 @@ input {
 
 .principal-registrar {
   text-align: center;
-  margin-top: 15px;
+  padding: 20px;
 }
 
 .principal-registrar a {
   color: var(--cor-primaria);
   text-decoration: none;
+}
+
+@media (max-width: 500px) {
+  .container {
+    height: 100%;
+    width: 100%;
+  }
 }
