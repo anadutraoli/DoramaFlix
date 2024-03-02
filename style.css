@@ -3,6 +3,12 @@
 :root {
   --cor-primaria: #ea41bb;
   --cor-paragrafos: #141414;
+  --cor-gradiente: linear-gradient(
+    100deg,
+    #ff66dd 1%,
+    #f89fe4 30%,
+    #fcd2f3 100%
+  );
 }
 
 * {
@@ -12,15 +18,11 @@
 
 body {
   font-family: "Inter", sans-serif;
-  background-image: linear-gradient(
-    100deg,
-    #ff66dd 1%,
-    #f89fe4 30%,
-    #fcd2f3 100%
-  );
+  background: var(--cor-gradiente);
   background-repeat: no-repeat;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -67,10 +69,14 @@ input {
   font-size: 1rem;
   padding: 10px;
   border: none;
-  background-color: #ebebeb;
+  background-color: #e4e3e3;
   border-radius: 10px;
   margin: 5px 0px 40px 5px;
   font-family: "Inter", sans-serif;
+}
+
+input:focus {
+  outline: 0.5px solid #a5a5a5;
 }
 
 .formulario-senha input {
@@ -110,14 +116,23 @@ input {
 }
 
 @media (max-width: 500px) {
+
   body {
-    height: 100%;
+    background-image: none;
   }
 
   .container {
     border-radius: 0px;
-    height: 100%;
-    width: 100%;
     box-shadow: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    padding: 0;
+  }
+
+  .header {
+    margin: 20px 0;
   }
 }
