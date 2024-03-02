@@ -6,7 +6,7 @@
 
 - Este projeto é uma tela de login básica de um outro projeto que ainda está em desenvolvimento.
 
-## 💻 Funcionalidades do projeto
+## 📱 Funcionalidades do projeto
 
 - Funcionalidade: Esta é uma tela de login realizada para um projeto futuro feita apenas com HTML e CSS. O site se encontra 100% responsivo.
 
@@ -16,3 +16,6 @@
 
 - HTML5 (formulário)
 - CSS3 (flexbox)
+
+## 💻 Design
+![Preview do Form de Login](designFinal.png)
