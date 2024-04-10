@@ -70,10 +70,6 @@ body {
 }
 
 @media (max-width: 500px) {
-  body {
-    background-image: none;
-    background-color: #000;
-  }
 
   .principal h1 {
     font-size: 25px;
