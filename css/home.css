@@ -33,16 +33,61 @@ body {
 }
 
 .login-cadastro {
-  
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
 }
 
-.principal a{
+.principal a {
   color: #fff;
   background-color: var(--cor-primaria);
   padding: 15px 15px;
   border-radius: 4px;
   text-decoration: none;
-  margin-bottom: 9px;
 }
 
+.divisor::before {
+  content: "";
+  background-color: #b8b7b7;
+  position: absolute;
+  display: block;
+  width: 12em;
+  height: 0.062rem;
+  right: 250px;
+  bottom: 70px;
+}
 
+.divisor::after {
+  content: "";
+  background-color: #b8b7b7;
+  position: absolute;
+  display: block;
+  height: 0.062rem;
+  width: 12em;
+  left: 250px;
+  bottom: 70px;
+}
+
+@media (max-width: 500px) {
+  body {
+    background-image: none;
+    background-color: #000;
+  }
+
+  .principal h1 {
+    font-size: 25px;
+  }
+
+  .divisor::before {
+    width: 8.5em;
+    right: 210px;
+  }
+  
+  .divisor::after {
+    width: 8.5em;
+    left: 210px;
+
+  }
+
+}
