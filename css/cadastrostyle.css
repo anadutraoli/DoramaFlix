@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+:root {
+  --cor-primaria: #ea41bb;
+  --cor-paragrafos: #141414;
+  --cor-gradiente: linear-gradient(
+    100deg,
+    #ff66dd 1%,
+    #f89fe4 30%,
+    #fcd2f3 100%
+  );
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 550px;
+  max-height: 600px;
+  background-color: hsla(0, 0%, 0%, 0.5);
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 1px 1px 20px rgba(117, 117, 117, 0.3);
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario-nome,
+.formulario-email,
+.formulario-senha,
+.formulario-botao {
+  font-weight: 600;
+}
+
+label {
+  display: block;
+  color: var(--cor-primaria);
+}
+
+input {
+  font-size: 1rem;
+  padding: 10px;
+  border: none;
+  background-color: #e4e3e3;
+  border-radius: 10px;
+  margin: 5px 0px 40px 5px;
+  font-family: "Inter", sans-serif;
+}
+
+input:focus {
+  outline: 0.5px solid #a5a5a5;
+}
+
+.formulario-senha input {
+  margin-bottom: 10px;
+}
+
+.formulario-botao {
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 100px;
+  margin-top: 25px;
+  background-color: var(--cor-primaria);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+}
+
+.principal-login {
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+}
+
+.principal-login a {
+  color: var(--cor-primaria);
+  text-decoration: none;
+}
+
+@media (max-width: 500px) {
+  body {
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.9)), url(../img/fundo.png) no-repeat;
+  }
+
+  .container {
+    border-radius: 0px;
+    box-shadow: none;
+    background-color: inherit;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    padding: 0;
+  }
+
+  .header {
+    margin: 20px 0;
+  }
+}
