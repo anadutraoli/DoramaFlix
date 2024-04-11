@@ -1,0 +1,22 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-image: url(../img/fundo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.header {
+  margin: 40px 0px;
+}
+
+.header img {
+  margin-bottom: 10px;
+  max-width: 100%;
+}

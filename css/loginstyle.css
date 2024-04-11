@@ -16,17 +16,6 @@
   padding: 0;
 }
 
-body {
-  font-family: "Inter", sans-serif;
-  background-image: url(../img/fundo.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
 .container {
   max-width: 550px;
@@ -34,25 +23,14 @@ body {
   background-color: hsla(0, 0%, 0%, 0.5);
   border-radius: 10px;
   padding: 2rem;
-  box-shadow: 1px 1px 20px rgba(117, 117, 117, 0.30);
-}
-
-.header {
-  margin: 40px 0px;
-  text-align: center;
-  color: #ffff;
-}
-
-.header img {
-  margin-bottom: 10px;
-  max-width: 100%;
+  box-shadow: 1px 1px 20px rgba(117, 117, 117, 0.3);
 }
 
 .formulario {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: start;
 }
 
 .formulario-login,
@@ -64,6 +42,7 @@ body {
 label {
   display: block;
   color: var(--cor-primaria);
+  text-align: center;
 }
 
 input {
@@ -85,7 +64,6 @@ input:focus {
 }
 
 .formulario-botao {
-  color: #fff;
   text-transform: uppercase;
   padding: 10px 100px;
   margin-top: 25px;
@@ -109,7 +87,6 @@ input:focus {
 .principal-registrar {
   text-align: center;
   padding: 20px;
-  color: #fff;
 }
 
 .principal-registrar a {
@@ -118,10 +95,14 @@ input:focus {
 }
 
 @media (max-width: 500px) {
+  body {
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.9)), url(../img/fundo.png) no-repeat;
+  }
 
   .container {
     border-radius: 0px;
     box-shadow: none;
+    background-color: inherit;
   }
 }
 
