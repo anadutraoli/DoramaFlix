@@ -1,21 +1,34 @@
-# Welcome
+# DoramaFlix
+
+Site para organizar e avaliar séries e filmes coreanos.
 
 ## 📖 Resumo do projeto
 
-- Criado em 14/01/2024 (atualizado em 28/02/2024)
+- Criado em 14/01/2024 (atualizado em 13/04/2024)
 
-- Este projeto é uma tela de login básica de um outro projeto que ainda está em desenvolvimento.
+- A ideia desse projeto é criar um site para organizar séries e filmes coreanos.
 
 ## 📱 Funcionalidades do projeto
 
-- Funcionalidade: Esta é uma tela de login realizada para um projeto futuro feita apenas com HTML e CSS. O site se encontra 100% responsivo.
+- Funcionalidade: no momento este projeto contém três telas, a home, tela de cadastro e a tela de login. 
 
-- Observações: Este site foi feito 100% por mim.
+- Site 100% responsivo, mas ainda sem funcionalidades.
 
 ## 👨🏽‍💻 Tecnologias utilizadas
 
-- HTML5 (formulário)
-- CSS3 (flexbox)
+- HTML5
+- CSS3
 
 ## 💻 Design
-![Preview do Form de Login](designFinal.png)
+
+- Home:
+
+![Preview da Home](home.png)
+
+- Tela de Cadastro:
+
+![Preview da Tela de Cadastro](telacadastro.png)
+
+- Tela Login:
+
+![Preview da Tela de Login](telalogin.png)
