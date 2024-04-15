@@ -23,12 +23,12 @@ Site para organizar e avaliar séries e filmes coreanos.
 
 - Home:
 
-![Preview da Home](home.png)
+![Preview da Home](img/home.png)
 
 - Tela de Cadastro:
 
-![Preview da Tela de Cadastro](telacadastro.png)
+![Preview da Tela de Cadastro](img/telacadastro.png)
 
 - Tela Login:
 
-![Preview da Tela de Login](telalogin.png)
+![Preview da Tela de Login](img/telalogin.png)
