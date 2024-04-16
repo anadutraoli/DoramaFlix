@@ -5,12 +5,6 @@
   --cor-paragrafos: #141414;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-
 .principal img {
   width: 50%;
 }

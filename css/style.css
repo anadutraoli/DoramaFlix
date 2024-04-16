@@ -1,5 +1,5 @@
-@import url(./global.css);
-@import url(./home.css);
-@import url(./loginstyle.css);
-@import url(./cadastrostyle.css);
+@import './global.css';
+@import './home.css';
+@import './telalogin.css';
+@import './telacadastro.css';
 
