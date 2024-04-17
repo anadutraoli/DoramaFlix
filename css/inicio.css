@@ -79,7 +79,7 @@ img {
 .fundo-principal {
   width: 100%;
   position: relative;
-  z-index: 10;
+  z-index: -1;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),
     url(../img/fundo.png) no-repeat;
 }
@@ -116,4 +116,111 @@ img {
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #141414);
 }
 
+.conteudo-principal {
+  z-index: 1;
+  position: absolute;
+  top: 120px;
+  color: #ffff;
+  padding: 0px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: start;
+}
 
+.conteudo-principal h1 {
+  font-size: 4em;
+  width: 10ch;
+}
+
+.avaliacao-principal {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.avaliacao-principal .bi-star-fill {
+  color: #fff500;
+}
+
+.classificacao-principal {
+  padding: 5px;
+  outline: 1px solid #ffff;
+  border-radius: 10px;
+}
+
+.descricao-principal {
+  width: 40ch;
+}
+
+.avaliacao-principal,
+.classificacao-principal,
+.descricao-principal {
+  font-size: 1.2em;
+}
+
+.buttons-principal {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.buttons-principal .bi {
+  font-size: 30px;
+}
+
+.buttons-principal a {
+  display: flex;
+  align-items: center;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+.assistir-button {
+  background-color: rgb(199, 47, 148);
+}
+
+.minhalista-button {
+  background-color: #d35ab1;
+}
+
+section {
+  padding: 0px 80px;
+}
+
+section > .titulo {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+section > .titulo > .bi {
+  color: #e237b2;
+}
+
+.divisor {
+    border: none;
+    height: 1px;
+    margin-top: 15px;
+    background-color: #FFA8E1;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 67px;
+  padding: 40px 0px 80px 0px;
+}
+
+.card {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
