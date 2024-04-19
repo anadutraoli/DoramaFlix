@@ -20,7 +20,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 40px;
+  padding: 20px 20px;
   color: #ffff;
 }
 
@@ -96,20 +96,19 @@ img {
 }
 
 .conteudo-principal {
-  z-index: 1;
-  position: absolute;
-  top: 85%;
-  right: 0;
-  left: 0;
-  color: #ffff;
-  padding: 0px 80px;
+  margin-top: 60px;
   display: flex;
   flex-direction: column;
-  gap: 15px;
   align-items: center;
+  gap: 10px;
   padding-bottom: 500px;
+  color: #fff;
 }
 
+.conteudo-principal img {
+  top: 85%;
+  position: absolute;
+}
 
 .buscar-box {
   display: flex;
@@ -125,14 +124,12 @@ img {
 .buscar-input {
   font-size: 16px;
   color: #fff;
-  margin-left: 10px;
   outline: none;
   border: none;
   background: transparent;
   width: 27.5rem;
-  padding: 15px 20px;
+  padding: 20px 0px 20px 0px;
 }
-
 
 .buscar-input::placeholder {
   color: rgba(204, 204, 204, 0.4);
@@ -142,3 +139,27 @@ img {
   position: absolute;
   right: 18px;
 }
+
+
+
+.footer-conteudo {
+  padding: 40px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.footer-conteudo a {
+  text-decoration: none;
+  color: #E237B2;
+}
+
+.divisor {
+  border: none;
+  height: 1px;
+  margin-top: 15px;
+  background-color: #FFA8E1;
+}
+
